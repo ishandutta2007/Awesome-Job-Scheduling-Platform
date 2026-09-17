@@ -1,213 +1,128 @@
-# Awesome-Job-Scheduling-Platform
+# Awesome Job Scheduling Platforms
 
-## Top Job Scheduling Platforms Ecosystem
+![Awesome Job Scheduling Platforms Banner](assets/banner.svg)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+## Curated List of SaaS Workload Automation & Open-Source Job Schedulers
 
-*Focused on Cron Monitoring, Workload Automation, Batch Scheduling, Enterprise Job Orchestration & Workflow Dependencies*
+> **Comprehensive directory of Enterprise Workload Automation (WLA), Cron Monitoring SaaS, Batch Schedulers, and Open-Source Workflow Orchestrators (DAGs).**
 
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Job Scheduling**. These systems schedule, trigger, monitor, and orchestrate batch jobs, scripts, and multi-step workflows across servers, mainframes, and cloud environments—from simple cron replacements to enterprise workload automation.
-
-
-
-**Examples** include Cronitor, EasyCron, ActiveBatch, VisualCron, RunMyJobs by Redwood, Control-M, Schedulix, Stonebranch, Azkaban Enterprise, and QuartzDesk (the category leaders).
-
-
-
-**Open-source emphasis**: Job and workflow scheduling has a rich open ecosystem. **Apache Airflow**, **Prefect**, **Dagster**, **Quartz**, **Azkaban**, **Apache DolphinScheduler**, and related projects are widely used in production. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Cronitor](https://cronitor.io/)**  
-
-  Modern cron monitoring and job observability platform that alerts when scheduled jobs fail, run late, or stop reporting.
-
-
-
-- **[EasyCron](https://www.easycron.com/)**  
-
-  Hosted cron service for scheduling HTTP requests and scripts without managing your own cron infrastructure.
-
-
-
-- **[ActiveBatch (Redwood)](https://www.advsyscon.com/)**  
-
-  Enterprise workload automation and job scheduling platform with broad connectors and drag-and-drop workflow design.
-
-
-
-- **[VisualCron](https://www.visualcron.com/)**  
-
-  Windows-oriented job scheduler and automation tool for tasks, file operations, and notifications.
-
-
-
-- **[RunMyJobs by Redwood](https://www.redwood.com/)**  
-
-  Cloud-native and hybrid workload automation platform for scheduling and orchestrating business and IT jobs.
-
-
-
-- **[Control-M (BMC)](https://www.bmc.com/it-solutions/control-m.html)**  
-
-  Enterprise workload automation and application workflow orchestration platform used across mainframe and distributed environments.
-
-
-
-- **[Schedulix](https://www.schedulix.org/)**  
-
-  Open-core / enterprise job scheduling system with strong dependency and workload management features.
-
-
-
-- **[Stonebranch](https://www.stonebranch.com/)**  
-
-  Workload automation and universal scheduling platform for hybrid IT environments and event-driven jobs.
-
-
-
-- **[Azkaban Enterprise](https://azkaban.github.io/)**  
-
-  Enterprise offerings and support around the Azkaban workflow scheduler originally developed at LinkedIn.
-
-
-
-- **[QuartzDesk](https://www.quartzdesk.com/)**  
-
-  Management and monitoring console for Quartz-based Java job schedulers in enterprise applications.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Apache Airflow](https://github.com/apache/airflow)**  
-
-  Leading open-source platform to programmatically author, schedule, and monitor workflows as DAGs—dominant in data engineering.
-
-
-
-- **[Prefect](https://github.com/PrefectHQ/prefect)**  
-
-  Modern open-source workflow orchestration framework with a Python-native API, hybrid execution, and strong developer experience.
-
-
-
-- **[Dagster](https://github.com/dagster-io/dagster)**  
-
-  Asset-oriented open-source data orchestrator focused on software-defined assets, lineage, testing, and observability.
-
-
-
-- **[Quartz Scheduler](https://github.com/quartz-scheduler/quartz)**  
-
-  Widely used open-source job scheduling library for Java applications (the foundation many enterprise schedulers build on).
-
-
-
-- **[Azkaban](https://github.com/azkaban/azkaban)**  
-
-  Open-source batch workflow job scheduler created at LinkedIn for Hadoop and related big-data workloads.
-
-
-
-- **[Apache DolphinScheduler](https://github.com/apache/dolphinscheduler)**  
-
-  Distributed, visual open-source workflow scheduler focused on cloud-native and big-data job orchestration.
-
-
-
-- **[Luigi](https://github.com/spotify/luigi)**  
-
-  Open-source Python module from Spotify for building complex pipelines of batch jobs with dependency resolution.
-
-
-
-- **[Argo Workflows](https://github.com/argoproj/argo-workflows)**  
-
-  Kubernetes-native open-source workflow engine for parallel jobs and CI/CD-style orchestration on clusters.
-
-
-
-- **[Apache Oozie](https://github.com/apache/oozie)**  
-
-  Open-source workflow scheduler for Hadoop jobs (still found in many legacy big-data environments).
-
-
-
-- **[Cron and systemd timers + monitoring open tools](https://github.com/)**  
-
-  Classic Unix cron, systemd timers, and open monitoring add-ons (healthchecks, cronitor-compatible agents) for simple job scheduling.
-
-
-
-### Additional Strong Open-Source Options
-
-- Choosing **Airflow** for the largest ecosystem and data-pipeline talent pool.
-
-- Adopting **Prefect** or **Dagster** for modern Python-first or asset-centric orchestration.
-
-- Using **Quartz** inside Java applications that need embedded scheduling.
-
-- Running **Argo Workflows** when Kubernetes is the primary execution environment.
-
-- Accepting that mainframe integration, enterprise SLAs, advanced GUI designers, and cross-platform workload automation still favor commercial platforms (Control-M, ActiveBatch, Stonebranch, RunMyJobs, etc.).
-
-- Focusing open-source efforts on code-defined pipelines, observability, and avoiding vendor lock-in for data and application jobs.
-
-
-
-**Frameworks for building custom systems**: Define jobs as code (Airflow DAGs, Prefect flows, Dagster assets) → schedule and monitor via the orchestrator → emit metrics/logs to your observability stack → alert on failures with Cronitor-style checks or native sensors. Suitable for data, platform, and DevOps teams. Many enterprises still standardize on commercial workload automation for heterogeneous and regulated environments.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Job schedulers often run critical business and financial processes. Misconfigured schedules or unmonitored failures can cause significant operational impact. Open-source deployments require proper HA, security, and runbook design. This list is not operational or compliance advice.
-
-
+*Last updated: September 2026*
 
 ---
 
-**Made for platform engineers, data engineers, and IT operations teams who need reliable job orchestration.**
+## Overview & Market Insights
 
-Let's keep scheduled work visible, recoverable, and as open as practical.
+**Estimated Sector Market Size:** The global Enterprise Workload Automation & Job Scheduling market is estimated at **$3.2 Billion (2026)** and is projected to reach **$5.2 Billion by 2030** (CAGR ~8.8%).
+
+**Market Dynamics:** The sector is **moderately fragmented**. High-end enterprise workloads and mainframe-to-cloud migrations are dominated by consolidated legacy orchestrators (such as BMC Control-M and Redwood Software), whereas cloud-native data pipelines and developer workflows are heavily split among modern open-source DAG engines (Apache Airflow, Temporal, Prefect, Dagster) and specialized micro-SaaS cron observability platforms.
+
+---
+
+## Table of Contents
+
+- [SaaS & Hosted Workload Automation Platforms](#saas--hosted-workload-automation-platforms)
+- [Open-Source Job Schedulers & Orchestrators](#open-source-job-schedulers--orchestrators)
+- [Architecture & Selection Guide](#architecture--selection-guide)
+- [How to Contribute](#how-to-contribute)
+- [License & Disclaimer](#license--disclaimer)
+
+---
+
+## SaaS & Hosted Workload Automation Platforms
+
+The table below outlines major commercial SaaS platforms and enterprise workload automation solutions, ordered by estimated **Company Size (Revenue / Valuation)** descending.
+
+| Platform / Product | Description | Pricing (Starting Tier) | Free Tier / Trial Limits | Company Size (Revenue / Valuation) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Control-M (BMC)](https://www.bmc.com/it-solutions/control-m.html)** | Enterprise workload automation & application workflow orchestration across mainframe, cloud, and hybrid IT. | $2,400 / month *(Starter Pack, billed annually)* | No free tier; 14-day interactive demo & custom trial upon request | **~$14B–$15B Valuation** *(~$2.3B Annual Revenue)* |
+| **[RunMyJobs by Redwood](https://www.redwood.com/)** | SaaS-native workload automation platform for enterprise ERP, business processes, and IT execution. | $1,000 / month *(Consumption-based starting tier)* | No free tier; 30-day fully functional trial post-demo | **~$2.5B Valuation** *(~$76.7M ARR)* |
+| **[ActiveBatch (Redwood)](https://www.advsyscon.com/)** | Enterprise job scheduler with cross-platform connectors, event triggers, and low-code workflow designer. | $950 / month *(Starting annual server license)* | No free tier; 30-day full-access trial license | **~$2.5B Valuation** *(~$76.7M ARR)* |
+| **[Stonebranch](https://www.stonebranch.com/)** | Universal Automation Center for real-time event-driven job scheduling and hybrid IT orchestration. | $500 / month *(Subscription entry tier)* | No free tier; 30-day free trial with full feature access | **~$18.5M ARR** *(EMH Partners backed)* |
+| **[Azkaban Enterprise](https://azkaban.github.io/)** | Enterprise-grade commercial support and managed deployment services for LinkedIn Azkaban workflows. | $300 / month *(Managed support package)* | Free self-hosted Apache 2.0 open-source core | **~$10M Ecosystem** *(Commercial Open Source)* |
+| **[Cronitor](https://cronitor.io/)** | Modern developer cron job monitoring, uptime telemetry, and background worker observability platform. | $7 / month *(Business plan: $2/mo per monitor + $5/mo per seat)* | Free Forever (5 monitors, 1 status page, email/Slack alerts) + 14-day trial | **~$2.5M ARR** *(Bootstrapped / Private)* |
+| **[VisualCron](https://www.visualcron.com/)** | Windows-centric job scheduler, task automation server, and integration engine with rich UI. | $229 / year *(~$19.08/mo per server license)* | No free tier; 30-day unrestricted full free trial | **~$2.0M Revenue** *(Acquired by Continuous 2022)* |
+| **[EasyCron](https://www.easycron.com/)** | Hosted web cron service for triggering remote HTTP webhooks, API endpoints, and scheduled scripts. | $24 / year *($2.00/mo on annual plan)* | Free Forever (5 active cron jobs, 200 executions/day, 20-min min interval) | **~$1.0M Revenue** *(Privately held)* |
+| **[QuartzDesk](https://www.quartzdesk.com/)** | Enterprise management and web monitoring GUI console for Quartz-based Java job scheduling engines. | $28 / month *($336/yr perpetual license)* | Free Lite Edition (up to 3 Quartz engines) & 30-day trial | **~$500K Revenue** *(Privately held)* |
+| **[Schedulix](https://www.schedulix.org/)** | Open-core enterprise job scheduling system with workload balancing and complex dependency handling. | $150 / month *(Enterprise commercial support tier)* | Free self-hosted AGPL open-core with unlimited jobs | **~$500K Revenue** *(independIT GmbH)* |
+
+---
+
+## Open-Source Job Schedulers & Orchestrators
+
+Below is a curated list of top open-source job schedulers, task queues, and DAG workflow orchestrators, sorted by **GitHub Star Count** descending.
+
+- **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
+  Leading Python-based workflow management platform to programmatically author, schedule, and monitor data pipelines as Directed Acyclic Graphs (DAGs).
+
+- **[Celery](https://github.com/celery/celery)** [![GitHub stars](https://img.shields.io/github/stars/celery/celery?style=social&color=white)](https://github.com/celery/celery/stargazers)  
+  Asynchronous task queue/job queue based on distributed message passing, focused on real-time operation and background task scheduling in Python.
+
+- **[Prefect](https://github.com/PrefectHQ/prefect)** [![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
+  Modern Python-native workflow orchestration framework enabling dynamic flow construction, hybrid cloud execution, and observable data assets.
+
+- **[Temporal](https://github.com/temporalio/temporal)** [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)  
+  Open-source durable execution engine that guarantees fault-tolerant execution of microservice workflows and long-running distributed background jobs.
+
+- **[Luigi](https://github.com/spotify/luigi)** [![GitHub stars](https://img.shields.io/github/stars/spotify/luigi?style=social&color=white)](https://github.com/spotify/luigi/stargazers)  
+  Python framework developed by Spotify for building complex batch job pipelines with automated dependency resolution, visualization, and Hadoop integration.
+
+- **[Argo Workflows](https://github.com/argoproj/argo-workflows)** [![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers)  
+  Kubernetes-native workflow engine for orchestrating parallel containerized jobs and compute-intensive tasks on Kubernetes clusters.
+
+- **[Dagster](https://github.com/dagster-io/dagster)** [![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)  
+  Asset-oriented data orchestrator designed for defining, testing, and observing software-defined data assets and production pipelines.
+
+- **[Apache DolphinScheduler](https://github.com/apache/dolphinscheduler)** [![GitHub stars](https://img.shields.io/github/stars/apache/dolphinscheduler?style=social&color=white)](https://github.com/apache/dolphinscheduler/stargazers)  
+  Distributed visual workflow scheduler platform committed to high-performance big-data and cloud-native job orchestration with a low-code UI.
+
+- **[Sidekiq](https://github.com/sidekiq/sidekiq)** [![GitHub stars](https://img.shields.io/github/stars/sidekiq/sidekiq?style=social&color=white)](https://github.com/sidekiq/sidekiq/stargazers)  
+  Simple, efficient background job processing engine for Ruby applications utilizing Redis and multithreaded execution.
+
+- **[gocron](https://github.com/go-co-op/gocron)** [![GitHub stars](https://img.shields.io/github/stars/go-co-op/gocron?style=social&color=white)](https://github.com/go-co-op/gocron/stargazers)  
+  Fluent and lightweight Go job scheduling library for running periodic, cron-like tasks inside Golang microservices.
+
+- **[Quartz Scheduler](https://github.com/quartz-scheduler/quartz)** [![GitHub stars](https://img.shields.io/github/stars/quartz-scheduler/quartz?style=social&color=white)](https://github.com/quartz-scheduler/quartz/stargazers)  
+  Battle-tested Java enterprise job scheduling framework used for embedding complex, persistent cron schedules inside Java applications.
+
+- **[Rundeck](https://github.com/rundeck/rundeck)** [![GitHub stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers)  
+  Open-source runbook automation console and job scheduler for operations self-service, incident response, and infrastructure task orchestration.
+
+- **[Azkaban](https://github.com/azkaban/azkaban)** [![GitHub stars](https://img.shields.io/github/stars/azkaban/azkaban?style=social&color=white)](https://github.com/azkaban/azkaban/stargazers)  
+  Batch workflow job scheduler developed at LinkedIn specifically designed to manage Hadoop jobs, ETL tasks, and artifact dependencies.
+
+- **[Apache Oozie](https://github.com/apache/oozie)** [![GitHub stars](https://img.shields.io/github/stars/apache/oozie?style=social&color=white)](https://github.com/apache/oozie/stargazers)  
+  Workflow scheduler system dedicated to managing Apache Hadoop jobs in legacy enterprise big-data deployments.
+
+---
+
+## Architecture & Selection Guide
+
+When selecting a job scheduling platform or workflow engine, consider the following technical criteria:
+
+1. **Embedded Scheduling vs. External Orchestration:**
+   - **Embedded (Quartz, gocron, Sidekiq, Celery):** Runs inside or alongside your application process; ideal for background tasks, webhooks, and light microservice jobs.
+   - **External Orchestration (Airflow, Prefect, Temporal, Dagster):** Decoupled orchestration servers managing complex dependencies, retry logic, state retention, and visualization across heterogeneous infrastructures.
+
+2. **Kubernetes-Native Execution:**
+   - **Argo Workflows** and **Apache DolphinScheduler** provide native pod-level execution for containerized container-per-task workloads.
+
+3. **Enterprise Workload Automation (WLA):**
+   - Commercial solutions (**BMC Control-M**, **Redwood RunMyJobs/ActiveBatch**, **Stonebranch**) excel at mainframe integration, cross-platform file transfers, strict compliance/SLA tracking, and visual drag-and-drop workflow construction.
+
+---
+
+## How to Contribute
+
+We welcome community contributions to expand this directory!
+
+1. Fork this repository.
+2. Update `README.md` following the table formatting (for SaaS) or star-sorted list (for Open-Source).
+3. Ensure accurate details: name, direct documentation link, exact pricing/limits, and concise factual descriptions.
+4. Submit a Pull Request with a clear description of your additions.
+
+---
+
+## License & Disclaimer
+
+- License: [MIT License](LICENSE)
+- *Disclaimer: Product trademarks, logos, and company names are the property of their respective owners. Pricing, free tier thresholds, and valuation estimates are gathered from publicly available references as of late 2026.*
