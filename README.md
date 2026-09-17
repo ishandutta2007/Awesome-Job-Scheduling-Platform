@@ -1,7 +1,7 @@
 # ⚡ Awesome Job Scheduling Platforms
 
 <p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Job-Scheduling-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Job-Scheduling-Platform?style=flat-square&color=gold" alt="GitHub Stars" /></a> <a href="https://github.com/ishandutta2007/Awesome-Job-Scheduling-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Job-Scheduling-Platform?style=flat-square&color=blue" alt="License" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Job-Scheduling-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Job-Scheduling-Platform?style=flat-square&color=gold" alt="GitHub_Stars" /></a> <a href="https://github.com/ishandutta2007/Awesome-Job-Scheduling-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Job-Scheduling-Platform?style=flat-square&color=blue" alt="License" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ![Awesome Job Scheduling Platforms Banner](assets/banner.svg)
@@ -52,48 +52,48 @@ The table below outlines major commercial SaaS platforms and enterprise workload
 
 ## 🔓 Open-Source Job Schedulers & Orchestrators
 
-Below is a curated list of top open-source job schedulers, task queues, and DAG workflow orchestrators, sorted by **GitHub Star Count** descending.
+Below is a curated list of top open-source job schedulers, task queues, and DAG workflow orchestrators, sorted by **GitHub Stars_Count** descending.
 
-- **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
+- **[Apache Airflow](https://github.com/apache/airflow)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
   ⚡ Leading Python-based workflow management platform to programmatically author, schedule, and monitor data pipelines as Directed Acyclic Graphs (DAGs).
 
-- **[Celery](https://github.com/celery/celery)** [![GitHub stars](https://img.shields.io/github/stars/celery/celery?style=social&color=white)](https://github.com/celery/celery/stargazers)  
+- **[Celery](https://github.com/celery/celery)** [![GitHub_Stars](https://img.shields.io/github/stars/celery/celery?style=social&color=white)](https://github.com/celery/celery/stargazers)  
   🌿 Asynchronous task queue/job queue based on distributed message passing, focused on real-time operation and background task scheduling in Python.
 
-- **[Prefect](https://github.com/PrefectHQ/prefect)** [![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
+- **[Prefect](https://github.com/PrefectHQ/prefect)** [![GitHub_Stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
   💙 Modern Python-native workflow orchestration framework enabling dynamic flow construction, hybrid cloud execution, and observable data assets.
 
-- **[Temporal](https://github.com/temporalio/temporal)** [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)  
+- **[Temporal](https://github.com/temporalio/temporal)** [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)  
   ⏳ Open-source durable execution engine that guarantees fault-tolerant execution of microservice workflows and long-running distributed background jobs.
 
-- **[Luigi](https://github.com/spotify/luigi)** [![GitHub stars](https://img.shields.io/github/stars/spotify/luigi?style=social&color=white)](https://github.com/spotify/luigi/stargazers)  
+- **[Luigi](https://github.com/spotify/luigi)** [![GitHub_Stars](https://img.shields.io/github/stars/spotify/luigi?style=social&color=white)](https://github.com/spotify/luigi/stargazers)  
   📦 Python framework developed by Spotify for building complex batch job pipelines with automated dependency resolution, visualization, and Hadoop integration.
 
-- **[Argo Workflows](https://github.com/argoproj/argo-workflows)** [![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers)  
+- **[Argo Workflows](https://github.com/argoproj/argo-workflows)** [![GitHub_Stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers)  
   ☸️ Kubernetes-native workflow engine for orchestrating parallel containerized jobs and compute-intensive tasks on Kubernetes clusters.
 
-- **[Dagster](https://github.com/dagster-io/dagster)** [![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)  
+- **[Dagster](https://github.com/dagster-io/dagster)** [![GitHub_Stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)  
   💎 Asset-oriented data orchestrator designed for defining, testing, and observing software-defined data assets and production pipelines.
 
-- **[Apache DolphinScheduler](https://github.com/apache/dolphinscheduler)** [![GitHub stars](https://img.shields.io/github/stars/apache/dolphinscheduler?style=social&color=white)](https://github.com/apache/dolphinscheduler/stargazers)  
+- **[Apache DolphinScheduler](https://github.com/apache/dolphinscheduler)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/dolphinscheduler?style=social&color=white)](https://github.com/apache/dolphinscheduler/stargazers)  
   🐬 Distributed visual workflow scheduler platform committed to high-performance big-data and cloud-native job orchestration with a low-code UI.
 
-- **[Sidekiq](https://github.com/sidekiq/sidekiq)** [![GitHub stars](https://img.shields.io/github/stars/sidekiq/sidekiq?style=social&color=white)](https://github.com/sidekiq/sidekiq/stargazers)  
+- **[Sidekiq](https://github.com/sidekiq/sidekiq)** [![GitHub_Stars](https://img.shields.io/github/stars/sidekiq/sidekiq?style=social&color=white)](https://github.com/sidekiq/sidekiq/stargazers)  
   💎 Simple, efficient background job processing engine for Ruby applications utilizing Redis and multithreaded execution.
 
-- **[gocron](https://github.com/go-co-op/gocron)** [![GitHub stars](https://img.shields.io/github/stars/go-co-op/gocron?style=social&color=white)](https://github.com/go-co-op/gocron/stargazers)  
+- **[gocron](https://github.com/go-co-op/gocron)** [![GitHub_Stars](https://img.shields.io/github/stars/go-co-op/gocron?style=social&color=white)](https://github.com/go-co-op/gocron/stargazers)  
   🐹 Fluent and lightweight Go job scheduling library for running periodic, cron-like tasks inside Golang microservices.
 
-- **[Quartz Scheduler](https://github.com/quartz-scheduler/quartz)** [![GitHub stars](https://img.shields.io/github/stars/quartz-scheduler/quartz?style=social&color=white)](https://github.com/quartz-scheduler/quartz/stargazers)  
+- **[Quartz Scheduler](https://github.com/quartz-scheduler/quartz)** [![GitHub_Stars](https://img.shields.io/github/stars/quartz-scheduler/quartz?style=social&color=white)](https://github.com/quartz-scheduler/quartz/stargazers)  
   ☕ Battle-tested Java enterprise job scheduling framework used for embedding complex, persistent cron schedules inside Java applications.
 
-- **[Rundeck](https://github.com/rundeck/rundeck)** [![GitHub stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers)  
+- **[Rundeck](https://github.com/rundeck/rundeck)** [![GitHub_Stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers)  
   🔧 Open-source runbook automation console and job scheduler for operations self-service, incident response, and infrastructure task orchestration.
 
-- **[Azkaban](https://github.com/azkaban/azkaban)** [![GitHub stars](https://img.shields.io/github/stars/azkaban/azkaban?style=social&color=white)](https://github.com/azkaban/azkaban/stargazers)  
+- **[Azkaban](https://github.com/azkaban/azkaban)** [![GitHub_Stars](https://img.shields.io/github/stars/azkaban/azkaban?style=social&color=white)](https://github.com/azkaban/azkaban/stargazers)  
   🐘 Batch workflow job scheduler developed at LinkedIn specifically designed to manage Hadoop jobs, ETL tasks, and artifact dependencies.
 
-- **[Apache Oozie](https://github.com/apache/oozie)** [![GitHub stars](https://img.shields.io/github/stars/apache/oozie?style=social&color=white)](https://github.com/apache/oozie/stargazers)  
+- **[Apache Oozie](https://github.com/apache/oozie)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/oozie?style=social&color=white)](https://github.com/apache/oozie/stargazers)  
   🐘 Workflow scheduler system dedicated to managing Apache Hadoop jobs in legacy enterprise big-data deployments.
 
 ---
